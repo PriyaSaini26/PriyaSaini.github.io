@@ -1,0 +1,666 @@
+
+
+/* for mobiles */
+
+@media only screen and (max-width: 600px) {
+    
+    body{
+        background: black;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    .image{
+        width: 2000px;
+        /* position: absolute; */
+      
+        z-index: 1;
+    }
+
+    .image img{
+        background-size: cover;
+        z-index: 1;
+        height: 1500px;
+        
+    }
+
+    .content{
+        /* position: absolute; */
+        font-size: 30px;
+        z-index: 2;
+        margin-top: -1100px;
+        margin-left: 500px;
+        color: whitesmoke;
+        border: 2px solid white;
+        width: 1000px;
+        background-color: rgb(75, 240, 185);
+    }
+
+    .content pre{
+        font-family: 'Silkscreen', cursive;
+        font-size: 60px;
+        border: 2px solid white;
+        width:fit-content;
+        background-color: rgb(43, 100, 100);
+        animation-name: name;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 2;
+        animation-duration: 2s;
+    
+    }
+    @keyframes name {
+        0%{
+            font-size: 0px;
+        }
+        100%{
+            font-size: 60px;
+        }
+    }
+
+    .intro{
+        
+        margin-bottom: 130px;
+        width: 1000px;
+        margin-left: 480px;
+        margin-top: 115px;
+        color: whitesmoke;
+        font-size: 50px;
+        text-shadow: 3px 1px 2px black;
+        z-index: 3;
+    }
+    
+    .tab{
+        width: 2000px;
+        background-color: black;
+        height: 10px;
+        margin-top: 20px;
+    }
+
+    .qualification{
+        font-size: 80px;
+        margin-top: -100px;
+        width: 2000px;
+        border: 2px solid black;
+        background-image: linear-gradient(rgb(87, 13, 87),rgb(54, 54, 136));
+    }
+    
+    .qualification .card{
+        margin-top: 250px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        padding: 10px;
+       
+    }
+    .qualification .card-title{
+        text-align: center;
+        margin: 5px;
+        
+    }
+
+    .qualification .innerQual{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 45px;
+    }
+    
+    .certificates{
+        width: 900px;
+        background-image: linear-gradient(rgb(28, 151, 28),rgb(25, 48, 25));
+        margin-left: 300px;
+        margin-top: -400px;
+        height: 688px;
+    }
+    
+    #carouselExampleIndicators{
+        
+        padding: 20px;
+    }
+    
+    .carousel-item img{
+        height: 650px;
+        width: 500px;
+        
+    }
+    
+    .color{
+        width:810px;
+        height: 600px;
+        background-image: linear-gradient(skyblue,purple);
+        
+    }
+    .achievements{
+        font-size: 40px;
+        margin-top: 20px;
+        background-color: cyan;
+        padding: 30px;
+        margin-left: 600px;
+        border-radius: 100px;
+        width: fit-content;
+        border: 1px solid black;
+        animation-name: achieve;
+        animation-duration: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes achieve {
+        0%{
+            border-radius: 0%;
+            background-color: rgb(211, 241, 100);
+        }
+        100%{
+            border-radius: 100px;
+            background-color: rgb(253, 173, 186);
+            
+        }
+    }
+
+    .projects{
+        background-color: darkseagreen;
+        margin-top: 20px;
+        margin-right: -100px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+    .innerProject{
+        background-image: linear-gradient(rgb(163, 50, 125),rgb(34, 24, 34));
+        height:500px;
+        padding: 20px;
+       
+        width: 800px;
+        /* float: left; */
+        height: fit-content;
+    }
+    
+    .innerProject .card{
+        border: 1px solid black;
+        box-shadow: 4px 2px 8px greenyellow;
+        margin-top: 20px;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    
+    .innerProject img{
+        height: 300px;
+    }
+    
+    .hourglass{
+        margin-right: -700px;
+        
+        width: fit-content;
+       height: 1000px;
+       /* margin-left: 1000px; */
+    }
+    
+    .hourglass p{
+        font-size: 60px;
+        margin-top: 110px;
+        
+    }
+    
+    .hourglass img{
+       
+        height: 700px;
+    }
+    
+    .end{
+        
+        height: 300px;
+        width: 1500px;
+    }
+    
+    .end h1{
+        margin-top: 50px;
+    }
+    .end h3{
+        color:black;
+    }
+
+}
+
+
+
+
+/* for tablets */
+
+@media screen and (min-width:601px) and (max-width: 768px) {
+    body{
+        background: black;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    .image{
+        width: 2000px;
+        /* position: absolute; */
+      
+        z-index: 1;
+    }
+
+    .image img{
+        background-size: cover;
+        z-index: 1;
+        height: 1500px;
+        
+    }
+
+    .content{
+        /* position: absolute; */
+        font-size: 30px;
+        z-index: 2;
+        margin-top: -1100px;
+        margin-left: 500px;
+        color: whitesmoke;
+        border: 2px solid white;
+        width: 1000px;
+        background-color: rgb(75, 240, 185);
+    }
+
+    .content pre{
+        font-family: 'Silkscreen', cursive;
+        font-size: 60px;
+        border: 2px solid white;
+        width:fit-content;
+        background-color: rgb(43, 100, 100);
+        animation-name: name;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 2;
+        animation-duration: 2s;
+    
+    }
+    @keyframes name {
+        0%{
+            font-size: 0px;
+        }
+        100%{
+            font-size: 60px;
+        }
+    }
+
+    .intro{
+        
+        margin-bottom: 130px;
+        width: 1000px;
+        margin-left: 480px;
+        margin-top: 115px;
+        color: whitesmoke;
+        font-size: 50px;
+        text-shadow: 3px 1px 2px black;
+        z-index: 3;
+    }
+    
+    .tab{
+        width: 2000px;
+        background-color: black;
+        height: 10px;
+        margin-top: 20px;
+    }
+
+    .qualification{
+        font-size: 80px;
+        margin-top: -100px;
+        width: 2000px;
+        border: 2px solid black;
+        background-image: linear-gradient(rgb(87, 13, 87),rgb(54, 54, 136));
+    }
+    
+    .qualification .card{
+        margin-top: 250px;
+        margin-left: 500px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        padding: 10px;
+       
+    }
+    .qualification .card-title{
+        text-align: center;
+        margin: 5px;
+        
+    }
+
+    .qualification .innerQual{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 45px;
+    }
+    
+    .certificates{
+        width: 900px;
+        background-image: linear-gradient(rgb(28, 151, 28),rgb(25, 48, 25));
+        margin-left: 300px;
+        margin-top: -400px;
+        height: 688px;
+    }
+    
+    #carouselExampleIndicators{
+        
+        padding: 20px;
+    }
+    
+    .carousel-item img{
+        height: 650px;
+        width: 500px;
+        
+    }
+    
+    .color{
+        width:810px;
+        height: 600px;
+        background-image: linear-gradient(skyblue,purple);
+        
+    }
+    .achievements{
+        font-size: 40px;
+        margin-top: 20px;
+        background-color: cyan;
+        padding: 30px;
+        margin-left: 600px;
+        border-radius: 100px;
+        width: fit-content;
+        border: 1px solid black;
+        animation-name: achieve;
+        animation-duration: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes achieve {
+        0%{
+            border-radius: 0%;
+            background-color: rgb(211, 241, 100);
+        }
+        100%{
+            border-radius: 100px;
+            background-color: rgb(253, 173, 186);
+            
+        }
+    }
+
+
+    .projects{
+        background-color: darkseagreen;
+        margin-top: 20px;
+        margin-right: -100px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+    .innerProject{
+        background-image: linear-gradient(rgb(163, 50, 125),rgb(34, 24, 34));
+        height:500px;
+        padding: 20px;
+       
+        width: 800px;
+        /* float: left; */
+        height: fit-content;
+    }
+    
+    .innerProject .card{
+        border: 1px solid black;
+        box-shadow: 4px 2px 8px greenyellow;
+        margin-top: 20px;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    
+    .innerProject img{
+        height: 300px;
+    }
+    
+    .hourglass{
+        margin-right: -700px;
+        
+        width: fit-content;
+       height: 1000px;
+       /* margin-left: 1000px; */
+    }
+    
+    .hourglass p{
+        font-size: 60px;
+        margin-top: 110px;
+        
+    }
+    
+    .hourglass img{
+       
+        height: 700px;
+    }
+    
+    .end{
+      
+        height: 300px;
+        width: 2000px;
+    }
+    
+    .end h1{
+        margin-top: 50px;
+    }
+    .end h3{
+        color:black;
+    }
+
+
+}
+
+
+/* for desktop */
+
+@media screen and (min-width:769px){
+    body{
+        background: black;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    image{
+        border:2px solid black;
+    }
+    .image img{
+        width: 50%;
+        height: 800px;
+    }
+    .content{
+        margin-top: -650px;
+        margin-left: 400px;
+        color: whitesmoke;
+        border: 2px solid white;
+        width: auto;
+        background-color: rgb(75, 240, 185);
+    }
+    .content pre{
+        font-family: 'Silkscreen', cursive;
+        font-size: 60px;
+        border: 2px solid white;
+        width:fit-content;
+        background-color: rgb(43, 100, 100);
+        animation-name: name;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 2;
+        animation-duration: 2s;
+    
+    }
+    @keyframes name {
+        0%{
+            font-size: 0px;
+        }
+        100%{
+            font-size: 60px;
+        }
+    }
+    
+    .intro{
+        margin-left: 400px;
+        margin-top: 200px;
+        color: whitesmoke;
+        font-size: 30px;
+        text-shadow: 3px 1px 2px black;
+    }
+    
+    .tab{
+        width: 100%;
+        background-color: black;
+        height: 10px;
+        margin-top: 20px;
+    }
+    
+    .qualification{
+        border: 2px solid black;
+        background-image: linear-gradient(rgb(87, 13, 87),rgb(54, 54, 136));
+    }
+    
+    .qualification .card{
+        margin-top: 280px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    .qualification .card-title{
+        text-align: center;
+        margin: 5px;
+        font-size: 40px;
+    }
+    .qualification .innerQual{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    
+    
+    .certificates{
+        width: 80%;
+        background-image: linear-gradient(rgb(28, 151, 28),rgb(25, 48, 25));
+        margin-left: 100px;
+        margin-top: -400px;
+        height: 688px;
+    }
+    
+    #carouselExampleIndicators{
+        
+        padding: 20px;
+    }
+    
+    .carousel-item img{
+        height: 650px;
+        width: 500px;
+        
+    }
+    
+    .color{
+        width:50%;
+        height: 600px;
+        background-image: linear-gradient(skyblue,purple);
+        
+    }
+    
+    .achievements{
+        font-size: 40px;
+        margin-top: 20px;
+        background-color: cyan;
+        padding: 30px;
+        margin-left: 600px;
+        border-radius: 100px;
+        width: fit-content;
+        border: 1px solid black;
+        animation-name: achieve;
+        animation-duration: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes achieve {
+        0%{
+            border-radius: 0%;
+            background-color: rgb(211, 241, 100);
+        }
+        100%{
+            border-radius: 100px;
+            background-color: rgb(253, 173, 186);
+            
+        }
+    }
+    
+    .projects{
+        background-color: darkseagreen;
+        margin-top: 20px;
+        margin-right: -100px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 30%;
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+    .innerProject{
+        background-image: linear-gradient(rgb(163, 50, 125),rgb(34, 24, 34));
+        height:500px;
+        padding: 20px;
+        
+        width: 50%;
+        float: left;
+        height: fit-content;
+    }
+    
+    .innerProject .card{
+        border: 1px solid black;
+        box-shadow: 4px 2px 8px greenyellow;
+        margin-top: 20px;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    
+    .innerProject img{
+        height: 300px;
+    }
+    
+    .hourglass{
+        
+        width: fit-content;
+        float: right;
+    }
+    
+    .hourglass p{
+        font-size: 60px;
+        margin-top: 110px;
+        margin-left: 35%;
+    }
+    
+    .hourglass img{
+       
+        height: 700px;
+    }
+    
+    .end{
+        height: 300px;
+        width: 100%;
+    }
+    
+    .end h1{
+        margin-top: 50px;
+    }
+    .end h3{
+        color:black;
+    }
+    
+}
